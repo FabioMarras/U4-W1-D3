@@ -1,8 +1,8 @@
-package Rettangolo;
+package Package;
 
 public class Rettangolo {
-    public int altezza;
-    public int larghezza;
+    private int altezza;
+    private int larghezza;
     public Rettangolo(int altezza, int larghezza) {
         this.altezza = altezza;
         this.larghezza = larghezza;
@@ -24,4 +24,11 @@ public class Rettangolo {
         return Somma;
     };
 
+    public int getAltezza() {
+        return altezza;
+    }
+
+    public void setAltezza(int altezza) {
+        this.altezza = altezza;
+    }
 }
